@@ -8,24 +8,35 @@
     }
     h1{text-align: center;
     color:red;
-    border-bottom: 1px solid gray;
+    border-bottom: 3px solid pink;
     margin:0;
   padding:20px;}
-  ol{border-right: 1px solid gray;
-  width:200px; margin:0; padding20px;}
+  ol{border-right: 3px solid pink;
+  width:200px; margin:0; padding:20px;}
     a{color:black;
     text-decoration:none;}
     h2{color:red}
+    #grid{display: grid;
+      grid-template-columns: 250px 1fr;
+    }
+    #grid ol{
+      padding-top: 30px;
+    }
+    #article{
+      padding-left: 100px;
+      padding-top: 60px;
+    }
   </style>
 </head>
 <body>
 <h1><a href="index.html"style="color:blue"> 즐거운 홈스쿨</a></h1>
+<div id="grid">
  <ol>
   <li><a href="1.html">스크래치 로봇 코딩 </a></li>
   <li><a href="2.html">수학 창의 사고력</a></li>
   <li><a href="3.html">가베</a></li>
  </ol>
-
+<div id="article">
 <h2><strong>창의사고력 수업</strong></h2>
 
 <img src="think0.jpg" width ="500">
@@ -39,4 +50,7 @@
 <img src="think8.jpg" width ="500">
 <img src="think9.jpg" width ="500">
 <img src="think10.jpg" width ="500">
+</div>
+</div>
 </body>
+</html>
